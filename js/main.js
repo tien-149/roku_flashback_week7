@@ -39,7 +39,7 @@ import LoginComponent from "./components/LoginComponent.js"
         //And we have a valid user
         //Sp set the aitjemtocated propertu tp trie amd also store the user
         this.authenticated = status;
-        this.adminstrator = parseIntd(ata.isadmin); //Make sure this is a number not a text
+        this.adminstrator = parseInt(data.isadmin); //Make sure this is a number not a text
         this.user = data;
       },
 
